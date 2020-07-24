@@ -11,7 +11,7 @@ class Producto{
 			echo '
 
 
-					<div class="col-md-10 col-md-offset-1">
+					<div class="col-md-10 col-md-offset-1" style="margin-top: 50px;">
 							<div class="row">
 								<div class="col-md-5">
 									<div class="product-entry">

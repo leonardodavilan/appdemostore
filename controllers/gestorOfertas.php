@@ -10,13 +10,17 @@ class Ofertas{
 
 			echo '
 
-							<div class="col-md-4">
-								<a href="producto.php?producto='.$item["id"].'" class="f-product-2" style="background-image: url(backend/'.$item["imagen"].');">
-									<div class="desc">
-										<h2>'.$item["titulo"].'<br>$'.$item["precio"].'</h2>
-									</div>
-								</a>
-							</div>
+			<div class="col-md-3 col-xs-6 text-center">
+				<div class="product-entry">
+					<div>
+						<a class="f-product-2" href="producto.php?producto='.$item["id"].'"  style="background-image: url(backend/'.$item["imagen"].');"></a>
+					</div>
+					<div class="desc">
+						<h3><a href="producto.php?producto='.$item["id"].'">'.utf8_encode($item["titulo"]).'</a></h3>
+						<p class="price"><span>$'.$item["precio"].'</span></p>
+					</div>
+				</div>
+			</div>
 				';
 
 		}

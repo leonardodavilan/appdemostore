@@ -153,7 +153,7 @@ ul {
     display: block !important;
     position: absolute;
     margin-top: 28px;
-    background-color: white !important;
+    background-color: #F8F8FF !important;
     z-index: 10;
     text-align: left;
 }
@@ -637,7 +637,7 @@ ul {
 .f-product-2 {
     display: block;
     height: 235px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 #colorlib-featured-product .desc {
@@ -682,7 +682,27 @@ ul {
     position: relative;
 }
 
-.product-entry .product-img .tag {
+.ofert .tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.ofert .tag .new {
+    font-size: 11px;
+    background: #e20000;
+    color: #fff;
+    padding: .3em .5em;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.as {}
+
+
+/* .product-entry .product-img .tag {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -697,7 +717,7 @@ ul {
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
     border-radius: 2px;
-}
+} */
 
 .product-entry .product-img .tag .sale {
     font-size: 11px;
@@ -2274,12 +2294,12 @@ input[type="text"] {
 }
 
 .colorlib-heading {
-    margin-bottom: 5em;
+    margin-bottom: 1em;
 }
 
 .colorlib-heading h2 {
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     line-height: 1.5;
     color: #000;
     position: relative;
@@ -2510,6 +2530,18 @@ input[type="text"] {
 #colorlib-offcanvas ul li>ul {
     padding-left: 20px;
     display: none;
+}
+
+#colorlib-offcanvas .colorlib-nav>li {
+    float: unset !important;
+}
+
+#colorlib-offcanvas li:hover>ul {
+    display: block !important;
+    position: absolute;
+    margin-top: 5px;
+    background-color: black !important;
+    text-align: left;
 }
 
 #colorlib-offcanvas ul li.offcanvas-has-dropdown>a {

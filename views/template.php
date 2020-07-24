@@ -46,7 +46,7 @@
 
 	<!-- Theme style  -->
 	<!-- <link rel="stylesheet" href="views/css/style.css"> -->
-	<link rel="stylesheet" href="views/css/style-c.css">
+	<link rel="stylesheet" href="views/css/style-nw.css">
 	
 	<!-- Modernizr JS -->
 	<script src="views/js/modernizr-2.6.2.min.js"></script>
@@ -134,10 +134,10 @@
 				frameborder="0" scrolling="no" 
 				marginheight="0" marginwidth="0" 
 				src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Av.%20Canad%C3%A1%201110%201032,%20La%20Victoria%2015034%20Bre%C3%B1a+(IMPORTACIONES%20STYLES)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> 
-				 <script 
+				 <!-- <script 
 					type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=8fb3f002e8e88eddef5cc474fb2813090799a032'></script>
 
-				</div>
+				</div> -->
 		</div>
 
 
