@@ -3,7 +3,8 @@
 				<div class="row">
 				<hr>
 					<div class="col-md-6 col-md-offset-3 text-center colorlib-heading">
-						<h2><span>Nuestro catálogo</span></h2>
+						<h2><a name="catalogo"> </a>
+							<span>Nuestro catálogo</span></h2>
 					</div>
 				</div>
 				<div class="row">

@@ -8,7 +8,7 @@
 						<div  class="col-xs-4 col-sm-7 col-md-7 col-lg-7 text-right menu-1">						
 							<ul class="colorlib-nav">
 								<li><a href="./">NOSOTROS</a></li>
-								<li><a href="">CATÁLOGO</a></li>
+								<li><a  href="#catalogo" class="js-top">CATÁLOGO</a></li>
 								<li><a href="">CATEGORÍA</a>
 									<ul>
 											<?php
