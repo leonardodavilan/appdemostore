@@ -1,7 +1,8 @@
 <!--=====================================
 FORMULARIO DE INGRESO         
 ======================================-->
-<div id="backIngreso">
+<!-- id="backIngreso" -->
+<div >
 
 	<form method="post" id="formIngreso" onsubmit="return validarIngreso()">
 
