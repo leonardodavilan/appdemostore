@@ -6,7 +6,7 @@ class ProductoModels{
 
 	public function seleccionarProductoModel($tabla, $id){
 
-		$stmt = Conexion::conectar()->prepare("SELECT titulo, descripcion, contenido, imagen, precio, categoria, id FROM $tabla WHERE id = '$id'");
+		$stmt = Conexion::conectar()->prepare("SELECT titulo, descripcion, contenido, imagen, precio,precioxmayor, categoria, id FROM $tabla WHERE id = '$id'");
 
 		$stmt->execute();
 

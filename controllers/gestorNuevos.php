@@ -20,7 +20,7 @@ class Nuevos{
 							</div>
 							<div class="desc">
 								<h3><a href="producto.php?producto='.$item["id"].'">'.utf8_encode($item["titulo"]).'</a></h3>
-								<p class="price"><span>$'.$item["precio"].'</span></p>
+								<p class="price"><span>S/.'.$item["precio"].'</span></p>
 							</div>
 						</div>
 					</div>

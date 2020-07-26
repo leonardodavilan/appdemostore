@@ -23,7 +23,10 @@ class Producto{
 									<div class="desc">
 										<h3>'.utf8_encode($item["titulo"]).'</h3>
 										<p class="price">
-											<span>$'.$item["precio"].'</span> 
+											<span>S/.'.$item["precio"].'</span> 
+										</p>
+										<p class="price">
+											Precio al por mayor: <span>S/.'.$item["precioxmayor"].'</span> 
 										</p>
 										<p>'.utf8_encode($item["descripcion"]).'</p>
 
