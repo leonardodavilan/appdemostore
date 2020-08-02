@@ -1,7 +1,7 @@
 		<div class="colorlib-shop">
 			<div class="container">
 				<div class="row">
-				<hr>
+				
 					<div class="col-md-6 col-md-offset-3 text-center colorlib-heading">
 						<h2><a name="catalogo"> </a>
 							<span>Nuestro catálogo</span></h2>

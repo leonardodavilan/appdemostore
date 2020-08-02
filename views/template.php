@@ -21,6 +21,10 @@
 	<meta name="twitter:card" content="" />
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+
+
+	<link rel="stylesheet" href="views/fonts/fontawesome1/css/all.css">
+
 	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="views/css/animate.css">
@@ -28,6 +32,7 @@
 	<link rel="stylesheet" href="views/css/icomoon.css">
 	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="views/css/bootstrap.css">
+	<!-- <link rel="stylesheet" href="views/css/b4/css/bootstrap.min.css"> -->
 
 	<!-- Magnific Popup -->
 	<link rel="stylesheet" href="views/css/magnific-popup.css">
@@ -51,11 +56,10 @@
 	<!-- Modernizr JS -->
 	<script src="views/js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
+	<!-- [if lt IE 9]>
 	<script src="views/js/respond.min.js"></script>
-	<![endif]-->
+	<![endif] -->
 
-	<link rel="stylesheet" href="views/fonts/font-awesome/css/font-awesome.min.css">
 
 	
 
@@ -121,55 +125,23 @@
 			<!--========================================
 				FIN TODOS
 				========================================-->
-		<div class="container">
 
-				<div class="row">
-				<hr>
-					<div class="col-md-6 col-md-offset-3 text-center colorlib-heading">
-						<h2><span>ubícanos</span></h2>
-					</div>
-				</div>
+			<!--========================================
+				CONTÁCTO
+				========================================-->
+				<?php include "modules/contacto.php"; ?>
 
-				<div class="container text-center" >
-
-				<iframe width="520" height="400" 
-				frameborder="0" scrolling="no" 
-				marginheight="0" marginwidth="0" 
-				src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Av.%20Canad%C3%A1%201110%201032,%20La%20Victoria%2015034%20Bre%C3%B1a+(IMPORTACIONES%20STYLES)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> 
-				 <!-- <script 
-					type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=8fb3f002e8e88eddef5cc474fb2813090799a032'></script>
-
-				</div> -->
-		</div>
-
-
-				
-
-
-		<footer id="colorlib-footer "  role="contentinfo">	
-			<div class="copy">
-				<div class="row">
-					<div class="col-md-12 text-center">
-					<div class="social-icon large-icon icon-color-footer" style="padding:10px;">				
-
-						<a href="https://www.facebook.com/namepage/" title="Facebook" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-						<a href="https://twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-						<a href="https://youtube.com/" title="Youtube" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
-						<a href="https://instagram.com/" title="Instagram" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
-						<a href="https://api.whatsapp.com/send?phone=51941528540&text=Quiero%20afiliarme%20a%20Sokso%20y%20empezar%20a%20ganar" title="Whatsapp" target="_blank"><i class="fa fa-whatsapp fa-2x"></i></a>
-
-					</div>
-
-						<p>
-							Contáctanos al (+51) 914969387
-						</p>
-						<p>
-							<span class="block">&copy; 2020 <a href="#" target="_blank">Mi tienda Online</a> Todos los derechos reservados <a href="http://importacionesstyles.com/" target="_blank"></a></span>
-						</p>
-					</div>
-				</div>
-			</div>
-		</footer>
+		<!--========================================
+				FIN CONTÁCTO
+				========================================-->
+		
+			<!--========================================
+				FOOTER
+				========================================-->
+			<?php include "modules/footer.php"; ?>
+			<!--========================================
+				FIN FOOTER
+				========================================-->
 	</div>
 
 	<div class="gototop js-top">
@@ -199,6 +171,8 @@
 	<!-- Main -->
 	<script src="views/js/main.js"></script>
 
+
+	<script src="//code.tidio.co/t8cee583gwqo80x9cwfjrxqw8cfwhpje.js" async></script>
 	</body>
 </html>
 
