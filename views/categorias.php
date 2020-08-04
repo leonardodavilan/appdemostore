@@ -48,7 +48,7 @@
 
 	<!-- Theme style  -->
 	<!-- <link rel="stylesheet" href="views/css/style.css"> -->
-	<link rel="stylesheet" href="views/css/style-n.css">
+	<link rel="stylesheet" href="views/css/style-nw.css">
 
 	<!-- Modernizr JS -->
 	<script src="views/js/modernizr-2.6.2.min.js"></script>

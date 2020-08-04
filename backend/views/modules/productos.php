@@ -75,14 +75,17 @@ $crearArticulo->guardarProductoController();
 
  <div>
 
-	<table id="tablaSuscriptores" class="table table-striped dt-responsive nowrap">
+ <table id="tablaSuscriptores" class="table table-striped ">
     <thead>
       <tr>
-      	<th>#</th>
+        <th>#</th>
+        <th>Imagen</th>
         <th>Titulo</th>
         <th>Descripción</th>
+        <th>Cógio</th>
         <th>Contenido</th>
         <th>Precio</th>
+        <th>Precio por mayor</th>
         <th>Categoria</th>
         <th>Acciones</th>
       </tr>

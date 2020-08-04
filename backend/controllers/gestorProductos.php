@@ -107,19 +107,27 @@ class GestorProductos
         foreach ($respuesta as $row => $item) {
 
             echo ' 
-
                 <tr>
                     <td>'.$item["id"].'</td>
+                    <td>                            
+                        <img width="100%" height="20%" src="'.$item["imagen"].'" />
+                    </td>
                     <td>'.utf8_encode($item["titulo"]).'</td>
                     <td>'.utf8_encode($item["descripcion"]).'</td>
+                    <td>'.utf8_encode($item["codigo"]).'</td>
                     <td>'.utf8_encode($item["contenido"]).'</td>
                     <td>'.utf8_encode($item["precio"]).'</td>
+                    <td>'.utf8_encode($item["precioxmayor"]).'</td>
                     <td>'.utf8_encode($item["categoria"]).'</td>
+                    
+                    
                     <td>
-<a href="index.php?action=productos&idBorrar=' . $item["id"] . '&rutaImagen=' . $item["imagen"] . '">
-                        <i class="fa fa-times btn btn-danger"></i>
-                    </a>
+                            <a href="index.php?action=productos&idBorrar=' . $item["id"] . '&rutaImagen=' . $item["imagen"] . '">
+                            <i class="fa fa-times btn btn-danger"></i>
+                            </a>
+                            
                     </td>
+                    
                 </tr>
 ';
 
