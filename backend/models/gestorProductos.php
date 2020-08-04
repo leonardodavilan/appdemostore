@@ -80,31 +80,31 @@ class GestorProductosModel
 
     #ACTUALIZAR Producto
     #---------------------------------------------------
-    public function editarCategoriaModel($datosModel, $tabla)
-    {
+    // public function editarCategoriaModel($datosModel, $tabla)
+    // {
 
-        // $stmt = Conexion::conectar()->prepare("UPDATE $tabla SET titulo = :titulo, descripcion = :descripcion, contenido = :contenido, imagen = :imagen, precio = :precio, categoria = :categoria WHERE id = :id");
-        $stmt = Conexion::conectar()->prepare("UPDATE $tabla SET titulo = :titulo, descripcion = :descripcion, contenido = :contenido, imagen = :imagen, precio = :precio, categoria = :categoria WHERE id = :id");
+    //     // $stmt = Conexion::conectar()->prepare("UPDATE $tabla SET titulo = :titulo, descripcion = :descripcion, contenido = :contenido, imagen = :imagen, precio = :precio, categoria = :categoria WHERE id = :id");
+    //     $stmt = Conexion::conectar()->prepare("UPDATE $tabla SET titulo = :titulo, descripcion = :descripcion, contenido = :contenido, imagen = :imagen, precio = :precio, categoria = :categoria WHERE id = :id");
 
-        $stmt->bindParam(":titulo", $datosModel["titulo"], PDO::PARAM_STR);
-        $stmt->bindParam(":descripcion", $datosModel["descripcion"], PDO::PARAM_STR);
-        $stmt->bindParam(":contenido", $datosModel["contenido"], PDO::PARAM_STR);
-        $stmt->bindParam(":imagen", $datosModel["imagen"], PDO::PARAM_STR);
-        $stmt->bindParam(":precio", $datosModel["precio"], PDO::PARAM_INT);
-        $stmt->bindParam(":categoria", $datosModel["categoria"], PDO::PARAM_INT);
-        $stmt->bindParam(":id", $datosModel["id"], PDO::PARAM_INT);
+    //     $stmt->bindParam(":titulo", $datosModel["titulo"], PDO::PARAM_STR);
+    //     $stmt->bindParam(":descripcion", $datosModel["descripcion"], PDO::PARAM_STR);
+    //     $stmt->bindParam(":contenido", $datosModel["contenido"], PDO::PARAM_STR);
+    //     $stmt->bindParam(":imagen", $datosModel["imagen"], PDO::PARAM_STR);
+    //     $stmt->bindParam(":precio", $datosModel["precio"], PDO::PARAM_INT);
+    //     $stmt->bindParam(":categoria", $datosModel["categoria"], PDO::PARAM_INT);
+    //     $stmt->bindParam(":id", $datosModel["id"], PDO::PARAM_INT);
 
-        if ($stmt->execute()) {
+    //     if ($stmt->execute()) {
 
-            return "ok";
-        } else {
+    //         return "ok";
+    //     } else {
 
-            return "error";
-        }
+    //         return "error";
+    //     }
 
-        $stmt->close();
+    //     $stmt->close();
 
-    }
+    // }
 
 
 }

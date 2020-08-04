@@ -57,8 +57,8 @@ ARTÍCULOS ADMINISTRABLE
             <option value="---" size="300" required>SELECCIONA UNA CATEGORIA</option>
             <?php include "categoriasoption.php";?>
                 </Select>
-
-          <input type="submit" id="guardarArticulo" value="Guardar Artículo" class="btn btn-primary">
+          
+			    <input type="submit" id="guardarArticulo" value="Guardar Artículo" class="btn btn-primary">
 
 		</form>
 
@@ -103,7 +103,6 @@ $crearArticulo->guardarProductoController();
 
 $mostrarArticulo = new GestorProductos();
 $mostrarArticulo->mostrarProductosController();
-$mostrarArticulo->editarProductoController();
 $mostrarArticulo->borrarProductoController();
 
 

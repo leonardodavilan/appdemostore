@@ -8,7 +8,6 @@ class Conexion{
 		return $link;
 		// $link = new PDO("mysql:host=localhost;dbname=importacionesstyle_db","root","");
 		// return $link;
-
 	}
 
 }
