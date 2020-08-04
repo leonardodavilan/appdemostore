@@ -55,15 +55,14 @@ class GestorProductos
 
             imagejpeg($destino, $imagen);
 
-            $datosController = array("titulo"       => $_POST["tituloArticulo"],
-                                     "codigo"       => $_POST["codigoArticulo"],
-                                     "descripcion"  => $_POST["descripcionArticulo"],
-                                     "contenido"    => $_POST["contenidoArticulo"],
-                                     "imagen"       => $imagen,
-                                     "precio"       => $_POST["precioArticulo"],
-                                     "precioxmayor" => $_POST["precioxmayorArticulo"],
-                                     "categoria"    => $_POST["categoriaArticulo"]);
+            $datosController = array("titulo" => $_POST["tituloArticulo"],
+                "descripcion"                    => $_POST["descripcionArticulo"],
+                "contenido"                       => $_POST["contenidoArticulo"],
+                "imagen"                            => $imagen,
+                "precio"                       => $_POST["precioArticulo"],
+                "categoria"                       => $_POST["categoriaArticulo"]);
 
+                
             $respuesta = GestorProductosModel::guardarProductoModel($datosController, "productos");
 
             if ($respuesta == "ok") {
