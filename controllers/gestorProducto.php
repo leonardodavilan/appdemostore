@@ -11,15 +11,15 @@ class Producto{
 			echo '
 
 
-					<div class="col-md-10 col-md-offset-1" style="margin-top: 50px;">
+					<div class="col-md-12" style="margin-top: 50px;">
 							<div class="row">
-								<div class="col-md-5">
+								<div class="col-md-6">
 									<div class="product-entry">
 										<div class="product-img" style="background-image: url(backend/'.$item["imagen"].');">
 										</div>
 									</div>
 								</div>
-								<div class="col-md-7">
+								<div class="col-md-6">
 									<div class="desc">
 										<h3>'.utf8_encode($item["titulo"]).'</h3>
 										<p class="price">
@@ -29,10 +29,11 @@ class Producto{
 											Precio al por mayor: <span>S/.'.$item["precioxmayor"].'</span> 
 										</p>
 										<p>'.utf8_encode($item["descripcion"]).'</p>
+										<p>Código: '.utf8_encode($item["codigo"]).'</p>
 
 									</div>
 								</div>
-							<div class="col-md-7 tabulation">
+							<div class="col-md-6 tabulation">
 								<ul class="nav nav-tabs">
 								<hr>
 									<li class="active"><a data-toggle="tab" href="#description">Información</a></li>

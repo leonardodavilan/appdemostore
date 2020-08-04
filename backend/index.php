@@ -15,5 +15,6 @@ require_once "controllers/gestorProductos.php";
 require_once "controllers/gestorCategorias.php";
 require_once "controllers/gestorSuscriptores.php";
 
+
 $template = new TemplateController();
 $template->template();

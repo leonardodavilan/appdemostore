@@ -65,11 +65,11 @@ class GestorCategorias
              <li id="' . $item["id"] . '" class="bloqueArticulo">
 
                    <h1>'.utf8_encode($item["titulo"]).'</h1>
-                                       <span class="handleArticle">
-                    <a href="index.php?action=categorias&idBorrar=' . $item["id"] . '">
-                        <i class="fa fa-times btn btn-danger"></i>
-                    </a>
-                    <i class="fa fa-pencil btn btn-primary editarCategoria"></i>
+                    <span class="handleArticle">
+                        <a href="index.php?action=categorias&idBorrar=' . $item["id"] . '">
+                            <i class="fa fa-times btn btn-danger"></i>
+                        </a>
+                        <i class="fa fa-pencil btn btn-primary editarCategoria"></i>
                     </span>
                 </li>
 

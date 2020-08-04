@@ -12,7 +12,8 @@ class SuscriptoresController{
 
 			echo '<tr>
 			        <td>'.$item["usuario"].'</td>
-			        <td>'.$item["mail"].'</td>
+					<td>'.$item["mail"].'</td>
+					<td>'.$item["password"].'</td>
 			        <td>
 			        	<a href="index.php?action=suscriptores&idBorrar='.$item["id"].'"><span class="btn btn-danger fa fa-times quitarSuscriptor"></span></a>
 			        </td>

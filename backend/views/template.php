@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Admin</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="views/css/sweetalert.css">
 	<link rel="stylesheet" href="views/css/cssFancybox/jquery.fancybox.css">
 
+	
 	<script src="views/js/jquery-2.2.0.min.js"></script>
 	<script src="views/js/bootstrap.min.js"></script>
 	<script src="views/js/jquery.fancybox.js"></script>
@@ -26,6 +27,7 @@
 	<script src="views/js/responsive.bootstrap.min.js"></script>
 	<script src="views/js/jquery-ui.min.js"></script>
 	<script src="views/js/sweetalert.min.js"></script>
+	
 
 
 </head>

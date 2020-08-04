@@ -8,7 +8,7 @@ class SuscriptoresModel{
 	#------------------------------------------------------------
 	public function mostrarSuscriptoresModel($tabla){
 
-		$stmt = Conexion::conectar()->prepare("SELECT id, usuario, mail FROM $tabla");
+		$stmt = Conexion::conectar()->prepare("SELECT id, usuario, `password`, mail FROM $tabla");
 
 		$stmt -> execute();
 

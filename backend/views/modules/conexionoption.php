@@ -7,10 +7,11 @@ function conectar()
     $bd       = "h4mm55t2l7sh5f9v";
     $cnn      = new mysqli($servidor, $usuario, $password, $bd);
     return $cnn;
+
     // $servidor = "localhost";
     // $usuario  = "root";
     // $password = "";
-    // $bd       = "tienda_demo";
+    // $bd       = "importacionesstyle_db";
     // $cnn      = new mysqli($servidor, $usuario, $password, $bd);
     // return $cnn;
 }
