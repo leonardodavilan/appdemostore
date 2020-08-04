@@ -81,13 +81,8 @@ $crearArticulo->guardarProductoController();
 
 
  <div>
-<<<<<<< HEAD
 
  <table id="tablaSuscriptores" class="table table-striped ">
-=======
- <!-- class="table table-striped dt-responsive nowrap" -->
-	<table id="tablaSuscriptores" class="table table-striped ">
->>>>>>> 9d9ec4cc7b8abefc864947581b04d512cee32416
     <thead>
       <tr>
         <th>#</th>

@@ -130,10 +130,6 @@ class GestorProductos
                             
                     </td>
                     
-<<<<<<< HEAD
-=======
-
->>>>>>> 9d9ec4cc7b8abefc864947581b04d512cee32416
                 </tr>
 ';
 
