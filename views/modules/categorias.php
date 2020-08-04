@@ -4,13 +4,14 @@
 					<div class="row">
 						<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 text-center">
 							<a> <img src='./views/images/styles.png' href="./" style="width:30%; height:30%; border-radius:150px;"/></a>
+
 							<!-- id="colorlib-logo" -->
 							<div ><a style="color: black !important;" href="./"><strong>Importaciones Styles</strong></a></div>
 
 						</div>
 						<div  class="col-xs-4 col-sm-7 col-md-7 col-lg-7 text-right menu-1">						
 							<ul class="colorlib-nav">
-								<li><a href="./">NOSOTROS</a></li>
+								<li><a href="./">INICIO</a></li>
 								<li><a  href="./#catalogo" class="js-top">CATÁLOGO</a></li>
 								<li><a href="">CATEGORÍA</a>
 									<ul>

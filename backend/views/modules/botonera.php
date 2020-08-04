@@ -41,7 +41,8 @@ if ($_SESSION["role"] == "administrador") {
 				<li><a href="slide">Slide <span class="glyphicon glyphicon-new-window"></span></a></li>
 				<li><a href="productos">Productos <span class="glyphicon glyphicon-new-window"></span></a></li>
 				<li><a href="categorias">Categorias <span class="glyphicon glyphicon-new-window"></span></a></li>
-                <li><a href="suscriptores">Clientes <span class="glyphicon glyphicon-new-window"></span></a></li>
+				<li><a href="suscriptores">Usuario <span class="glyphicon glyphicon-new-window"></span></a></li>
+				
 
 
 

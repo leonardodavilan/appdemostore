@@ -18,16 +18,7 @@ include "views/modules/cabezote.php";
  ADMINISTRABLE
 ======================================-->
 
-
-
-
-
-
-
 <div id="seccionArticulos" class="col-lg-10 col-md-10 col-sm-9 col-xs-12">
-
-
-	
 
 	<button id="btnAgregarArticulo" class="btn btn-info">Agregar Categoria</button>
 
@@ -63,8 +54,8 @@ $crearArticulo->guardarCategoriaController();
 
 $mostrarArticulo = new GestorCategorias();
 $mostrarArticulo->mostrarCategoriasController();
-$mostrarArticulo->borrarCategoriaController();
 $mostrarArticulo->editarCategoriaController();
+$mostrarArticulo->borrarCategoriaController();
 
 ?>
 

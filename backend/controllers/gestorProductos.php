@@ -55,12 +55,14 @@ class GestorProductos
 
             imagejpeg($destino, $imagen);
 
-            $datosController = array("titulo" => $_POST["tituloArticulo"],
-                "descripcion"                    => $_POST["descripcionArticulo"],
-                "contenido"                       => $_POST["contenidoArticulo"],
-                "imagen"                            => $imagen,
-                "precio"                       => $_POST["precioArticulo"],
-                "categoria"                       => $_POST["categoriaArticulo"]);
+            $datosController = array("titulo"       => $_POST["tituloArticulo"],
+                                     "codigo"       => $_POST["codigoArticulo"],
+                                     "descripcion"  => $_POST["descripcionArticulo"],
+                                     "contenido"    => $_POST["contenidoArticulo"],
+                                     "imagen"       => $imagen,
+                                     "precio"       => $_POST["precioArticulo"],
+                                     "precioxmayor" => $_POST["precioxmayorArticulo"],
+                                     "categoria"    => $_POST["categoriaArticulo"]);
 
             $respuesta = GestorProductosModel::guardarProductoModel($datosController, "productos");
 
@@ -110,16 +112,26 @@ class GestorProductos
 
                 <tr>
                     <td>'.$item["id"].'</td>
+                    <td>                            
+                        <img width="100%" height="20%" src="'.$item["imagen"].'" />
+                    </td>
                     <td>'.utf8_encode($item["titulo"]).'</td>
                     <td>'.utf8_encode($item["descripcion"]).'</td>
+                    <td>'.utf8_encode($item["codigo"]).'</td>
                     <td>'.utf8_encode($item["contenido"]).'</td>
                     <td>'.utf8_encode($item["precio"]).'</td>
+                    <td>'.utf8_encode($item["precioxmayor"]).'</td>
                     <td>'.utf8_encode($item["categoria"]).'</td>
+                    
+                    
                     <td>
-<a href="index.php?action=productos&idBorrar=' . $item["id"] . '&rutaImagen=' . $item["imagen"] . '">
-                        <i class="fa fa-times btn btn-danger"></i>
-                    </a>
+                            <a href="index.php?action=productos&idBorrar=' . $item["id"] . '&rutaImagen=' . $item["imagen"] . '">
+                            <i class="fa fa-times btn btn-danger"></i>
+                            </a>
+                            
                     </td>
+                    
+
                 </tr>
 ';
 
@@ -167,8 +179,59 @@ class GestorProductos
 
     }
 
+    #EDITAR PRODUCTO
+    #------------------------------------
+
+    public function editarProductoController()
+    {
+
+        
+        if (isset($_POST["tituloTitulo"])) {
+            
+            $datosController = $_GET["idEditar"];
+
+            $datosController = array("titulo" => $_POST["tituloArticulo"],
+            "descripcion"                    => $_POST["descripcionArticulo"],
+            "contenido"                       => $_POST["contenidoArticulo"],
+            // "imagen"                          => $imagen,
+            "precio"                       => $_POST["precioArticulo"],
+            "precioxmayor"                       => $_POST["precioxmayorArticulo"],
+            "categoria"                       => $_POST["categoriaArticulo"]);
+        
+
+            $respuesta = GestorProductosModel::editarProductoModel($datosController, "productos");
+            
+
+            if ($respuesta == "ok") {
+
+                echo '<script>
+
+                    swal({
+                          title: "¡OK!",
+                          text: "¡El artículo ha sido actualizado correctamente!",
+                          type: "success",
+                          confirmButtonText: "Cerrar",
+                          closeOnConfirm: false
+                    },
+
+                    function(isConfirm){
+                             if (isConfirm) {
+                                window.location = "categorias";
+                              }
+                    });
 
 
+                </script>';
+
+            } else {
+
+                echo $respuesta;
+
+            }
+
+        }
+
+    }
 
 
 }

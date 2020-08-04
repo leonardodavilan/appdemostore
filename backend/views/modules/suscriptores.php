@@ -27,6 +27,7 @@ SUSCRIPTORES
       <tr>
         <th>Nombre</th>
         <th>Email</th>
+        <th>Password</th>
         <th>Acciones</th>
         <th></th>
       </tr>

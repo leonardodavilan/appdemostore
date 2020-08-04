@@ -62,7 +62,6 @@ class GestorSlide{
 			echo '<li id="'.$item["id"].'" class="bloqueSlide"><span class="fa fa-times eliminarSlide" ruta="'.$item["ruta"].'"></span><img src="'.substr($item["ruta"], 6).'" class="handleImg"></li>';
 
 		}
-
 	}
 
 	#MOSTRAR IMAGENES EN EL EDITOR
@@ -77,7 +76,7 @@ class GestorSlide{
 			echo '<li id="item'.$item["id"].'">
 					<span class="fa fa-pencil editarSlide" style="background:blue"></span>
 					<img src="'.substr($item["ruta"], 6).'" style="float:left; margin-bottom:10px" width="80%">
-					<h1>'.$item["titulo"].'</h1>
+					<h1>'.($item["titulo"]).'</h1>
 					<p>'.$item["descripcion"].'</p>
 				</li>';
 
