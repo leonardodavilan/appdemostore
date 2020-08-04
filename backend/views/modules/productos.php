@@ -24,51 +24,56 @@ ARTÍCULOS ADMINISTRABLE
 
 	<!--==== AGREGAR ARTÍCULO  ====-->
 
-  <div id="agregarArtículo" style="display:none">
+	<div id="agregarArtículo" style="display:none">
 
-<form method="post" enctype="multipart/form-data">
+		<form method="post" enctype="multipart/form-data">
 
-  <input name="tituloArticulo" type="text" placeholder="Título del Producto" class="form-control" required>
+          <input name="codigoArticulo" type="text" placeholder="Código del Producto" class="form-control" required>      
 
-  <input name="descripcionArticulo" id="" cols="30" rows="5" placeholder="Descripcion" class="form-control"  maxlength="170" required></input>
+          <input name="tituloArticulo" type="text" placeholder="Título del Producto" class="form-control" required>
 
-  <textarea name="contenidoArticulo" id="" cols="30" rows="10" placeholder="Detalle del Producto" class="form-control" required></textarea>
+          <input name="descripcionArticulo" id="" cols="30" rows="4" placeholder="Descripcion" class="form-control"  maxlength="170" required></input>
 
-  <br>
+          <textarea name="contenidoArticulo" id="" cols="30" rows="7" placeholder="Detalle del Producto" class="form-control" required></textarea>
 
-
-  <input name="precioArticulo" id="" cols="30" rows="5" placeholder="$ Precio" class="form-control"  maxlength="170" required></input>
-
-
-  <input type="file" name="ruta" class="btn btn-default" id="subirFoto" required>
-
-  <p>Tamaño recomendado: 800px * 400px, peso máximo 2MB</p>
+          <br>
 
 
+          <input name="precioArticulo" id="" cols="30" rows="4" placeholder="S/. Precio" class="form-control"  maxlength="170" required></input>
+          <input name="precioxmayorArticulo" id="" cols="30" rows="5" placeholder="S/. Precio por mayor" class="form-control"  maxlength="170" required></input>
 
 
-  <!--<input name="" type="text" placeholder="categoria" class="form-control" required>-->
-  <br>
+          <input type="file" name="ruta" class="btn btn-default" id="subirFoto" required>
 
-  <Select name="categoriaArticulo" id="nid" class="form-control" style="width: 850px">
-     <option value="---" size="300" required>SELECCIONA UNA CATEGORIA</option>
-     <?php include "categoriasoption.php";?>
-        </Select>
+          <p>Tamaño recomendado: 800px * 400px, peso máximo 2MB</p>
 
-  <input type="submit" id="guardarArticulo" value="Guardar Artículo" class="btn btn-primary">
 
-</form>
 
-</div>
+
+          <!--<input name="" type="text" placeholder="categoria" class="form-control" required>-->
+          <br>
+
+          <Select name="categoriaArticulo" id="nid" class="form-control" style="width: 850px">
+            <option value="---" size="300" required>SELECCIONA UNA CATEGORIA</option>
+            <?php include "categoriasoption.php";?>
+                </Select>
+          
+			    <input type="submit" id="guardarArticulo" value="Guardar Artículo" class="btn btn-primary">
+
+		</form>
+
+	</div>
 
   
 
 
   
 	<?php
-    $crearArticulo = new GestorProductos();
-    $crearArticulo->guardarProductoController();
-  ?>
+
+$crearArticulo = new GestorProductos();
+$crearArticulo->guardarProductoController();
+
+?>
 
 	<hr>
 
@@ -76,8 +81,8 @@ ARTÍCULOS ADMINISTRABLE
 
 
  <div>
-
- <table id="tablaSuscriptores" class="table table-striped ">
+ <!-- class="table table-striped dt-responsive nowrap" -->
+	<table id="tablaSuscriptores" class="table table-striped ">
     <thead>
       <tr>
         <th>#</th>
