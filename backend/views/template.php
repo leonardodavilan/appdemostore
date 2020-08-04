@@ -27,7 +27,6 @@
 	<script src="views/js/responsive.bootstrap.min.js"></script>
 	<script src="views/js/jquery-ui.min.js"></script>
 	<script src="views/js/sweetalert.min.js"></script>
-	<script src="views/js/jquery-tabledit-1.2.3/jquery.tabledit.min.js"></script>
 	
 
 
@@ -57,7 +56,6 @@
 	</div>
 
 	<script src="views/js/script.js"></script>
-	<script src="views/js/table_edit.js"></script>
 	<script src="views/js/validarIngreso.js"></script>
 	<script src="views/js/gestorSlide.js"></script>
 	<script src="views/js/gestorArticulos.js"></script>

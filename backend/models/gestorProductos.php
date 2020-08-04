@@ -13,9 +13,6 @@ class GestorProductosModel
 
         $stmt = Conexion::conectar()->prepare("INSERT INTO $tabla (titulo, codigo, descripcion, contenido, imagen, precio, precioxmayor, categoria) VALUES (:titulo,:codigo, :descripcion, :contenido, :imagen, :precio, :precioxmayor, :categoria)");
 
-
-      
-
         $stmt->bindParam(":titulo", $datosModel["titulo"], PDO::PARAM_STR);
         $stmt->bindParam(":codigo", $datosModel["codigo"], PDO::PARAM_STR);
         $stmt->bindParam(":descripcion", $datosModel["descripcion"], PDO::PARAM_STR);
