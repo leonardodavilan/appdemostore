@@ -40,12 +40,8 @@ class GestorProductosModel
     static public function mostrarProductosModel($tabla)
     {
 
-<<<<<<< HEAD
         // $stmt = Conexion::conectar()->prepare("SELECT id, titulo, descripcion, contenido, imagen, precio, categoria  FROM $tabla");
-
-=======
-        // $stmt = Conexion::conectar()->prepare("SELECT id, titulo, descripcion, contenido, imagen, precio, precioxmayor, categoria, estado  FROM $tabla");
->>>>>>> 9d9ec4cc7b8abefc864947581b04d512cee32416
+        
         $stmt = Conexion::conectar()->prepare("SELECT p.id, p.imagen, p.codigo, p.titulo, p.descripcion, p.contenido, p.imagen, p.precio, p.precioxmayor, c.titulo as categoria, p.estado FROM $tabla p
         INNER JOIN categorias c ON p.categoria = c.id");
 
