@@ -5,9 +5,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Producto</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<meta name="author" content="" />
+	<meta name="description" content="zapatillas para damas" />
+	<meta name="keywords" content="importaciones styles" />
+	<meta name="author" content="importaciones styles" />
 
   <!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
@@ -35,7 +35,7 @@
 	<link rel="stylesheet" href="views/css/magnific-popup.css">
 
 	<!-- Flexslider  -->
-	<link rel="stylesheet" href="views/css/flexslider.css">
+	<link rel="stylesheet" href="views/css/flexslider1.css">
 
 	<!-- Owl Carousel -->
 	<link rel="stylesheet" href="views/css/owl.carousel.min.css">
@@ -48,7 +48,7 @@
 
 	<!-- Theme style  -->
 	<!-- <link rel="stylesheet" href="views/css/style.css"> -->
-	<link rel="stylesheet" href="views/css/style-nw.css">
+	<link rel="stylesheet" href="views/css/style-nw2.css">
 
 	<!-- Modernizr JS -->
 	<script src="views/js/modernizr-2.6.2.min.js"></script>

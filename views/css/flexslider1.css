@@ -87,7 +87,7 @@ html[xmlns] .flexslider .slides {
   box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
 }
 .flexslider .slides {
-  zoom: 1;
+  zoom: 0.68;
 }
 .flexslider .slides img {
   height: auto;

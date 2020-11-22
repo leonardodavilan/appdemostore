@@ -22,6 +22,7 @@ class Producto{
 								<div class="col-md-6">
 									<div class="desc">
 										<h3>'.utf8_encode($item["titulo"]).'</h3>
+										<hr>
 										<p class="price">
 											<span>S/.'.$item["precio"].'</span> 
 										</p>
@@ -30,6 +31,21 @@ class Producto{
 										</p>
 										<p>'.utf8_encode($item["descripcion"]).'</p>
 										<p>Código: '.utf8_encode($item["codigo"]).'</p>
+										<div class="row">
+										    <div class="col-md-12 col-sm-12">
+										    <p style="font-weight: 400; font-size: 20px;">Pídelo en nuestro whastapp sin compromiso:</p>
+                                            </div>
+                                            <div class="col-md-12 col-sm-12">
+										    (+51) 962561466 
+										    <a style="color: green !important;" 
+										       href="https://api.whatsapp.com/send?phone=51962561466&text=Quiero%20información%20de%20la%20zapatilla%20'.utf8_encode($item["titulo"]).'%20con%20código:%20'.utf8_encode($item["codigo"]).'" 
+										       title="Whatsapp" 
+										       target="_blank">
+										       <i class="fab fa-whatsapp-square fa-2x"></i>
+										    </a>
+                                            </div>
+                                        </div>
+										
 
 									</div>
 								</div>

@@ -35,7 +35,7 @@
 	<link rel="stylesheet" href="views/css/magnific-popup.css">
 
 	<!-- Flexslider  -->
-	<link rel="stylesheet" href="views/css/flexslider.css">
+	<link rel="stylesheet" href="views/css/flexslider1.css">
 
 	<!-- Owl Carousel -->
 	<link rel="stylesheet" href="views/css/owl.carousel.min.css">
@@ -48,7 +48,7 @@
 
 	<!-- Theme style  -->
 	<!-- <link rel="stylesheet" href="views/css/style.css"> -->
-	<link rel="stylesheet" href="views/css/style-nw.css">
+	<link rel="stylesheet" href="views/css/style-nw2.css">
 
 	<!-- Modernizr JS -->
 	<script src="views/js/modernizr-2.6.2.min.js"></script>

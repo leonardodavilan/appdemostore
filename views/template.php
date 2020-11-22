@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Mi tienda Online</title>
+	<title>Importaciones Styles</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -39,7 +39,7 @@
 	<link rel="stylesheet" href="views/css/magnific-popup.css">
 
 	<!-- Flexslider  -->
-	<link rel="stylesheet" href="views/css/flexslider.css">
+	<link rel="stylesheet" href="views/css/flexslider1.css">
 
 	<!-- Owl Carousel -->
 	<link rel="stylesheet" href="views/css/owl.carousel.min.css">
@@ -52,7 +52,7 @@
 
 	<!-- Theme style  -->
 	<!-- <link rel="stylesheet" href="views/css/style.css"> -->
-	<link rel="stylesheet" href="views/css/style-nw.css">
+	<link rel="stylesheet" href="views/css/style-nw2.css">
 	
 	<!-- Modernizr JS -->
 	<script src="views/js/modernizr-2.6.2.min.js"></script>
